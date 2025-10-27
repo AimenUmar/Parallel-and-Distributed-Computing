@@ -1,8 +1,12 @@
 # Parallel-and-Distributed-Computing
-*Submitted to:* Sir Akhzar Nazir
-*Submitted by:* Aimen Umar
-*Registration No:* SP23-BAI-008
-*Section:* A
+**Submitted to:** Sir Akhzar Nazir
+
+**Submitted by:** Aimen Umar
+
+**Registration No:** SP23-BAI-008
+
+**Section:** A
+
 
 # Performance Report: Sequential vs Parallel vs Distributed
 
