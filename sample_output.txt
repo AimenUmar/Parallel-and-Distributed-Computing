@@ -1,0 +1,29 @@
+TASK 1:
+Sequential :
+Processed 94 images.
+Sequential Processing Time: 0.71 seconds
+
+
+TASK 2: 
+Parallel:
+Workers: 1 | Time: 0.63 seconds | Processed: 94 images
+Workers: 2 | Time: 0.37 seconds | Processed: 94 images
+Workers: 4 | Time: 0.29 seconds | Processed: 94 images
+Workers: 8 | Time: 0.31 seconds | Processed: 94 images
+
+Workers | Time (s) | Speedup 
+-------- | -------- | -------
+1        | 0.63     | 1.00x  
+2        | 0.37     | 1.73x
+4        | 0.29     | 2.14x
+8        | 0.31     | 2.06x
+
+
+TASK3:
+Distributed:
+Total images: 94 (Node 1: 47, Node 2: 47)
+
+Node 1 processed 47 images in 0.34s
+Node 2 processed 47 images in 0.50s
+Total distributed time: 0.82s      
+Efficiency: 0.87x over sequential  
